@@ -446,7 +446,7 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding: 75px;
     border-bottom: 1px solid $border;
 
     h2 {
@@ -457,6 +457,13 @@ footer {
         color: $text;
         margin: 0;
     }
+   .aboutme-image{
+    width: 50px; 
+    height: auto;
+    object-position: bottom;
+    padding-top: 2rem;
+    }
+    
 }
 
 /*
@@ -895,14 +902,6 @@ footer {
         }
     }
 
-    #about {
-        text-align: center;
-
-        p {
-            text-align: left;
-        }
-    }
-
 }
 
 // Small Devices
@@ -977,7 +976,13 @@ footer {
     .social {
         text-align: center;
     }
+#about {
+        text-align: center;
 
+        p {
+            text-align: left;
+        }
+    }
 }
 
 // Extra Small Devices
